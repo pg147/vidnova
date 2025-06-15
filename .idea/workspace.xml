@@ -69,6 +69,11 @@
       </map>
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\Frontend + MERN\Full Stack with Next.js\video-ai" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
@@ -100,7 +105,10 @@
       <updated>1749814690873</updated>
       <workItem from="1749814692968" duration="3115000" />
       <workItem from="1749817857655" duration="369000" />
-      <workItem from="1749818237465" duration="1127000" />
+      <workItem from="1749818237465" duration="5215000" />
+      <workItem from="1749829590473" duration="1615000" />
+      <workItem from="1749985171240" duration="1000" />
+      <workItem from="1749998492608" duration="2917000" />
     </task>
     <servers />
   </component>

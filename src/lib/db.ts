@@ -8,6 +8,11 @@ import { MongooseConnection } from "@/types";
 const connection: MongooseConnection = {};
 
 export async function dbConnect(): Promise<void> {
+    if (connection.isConnected) {
+        console.log("Database already connected.");
+        return;
+    } // if connected, return to avoid Database choking
+
     try {
         const db = await connect(process.env.NEXT_MONGODB_URI! || "");
 
