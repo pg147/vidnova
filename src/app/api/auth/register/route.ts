@@ -14,7 +14,7 @@ import { RegisterAndSaveUser } from "@/services/authServices";
 import { APIResponse } from "@/types";
 
 export async function POST(request: NextRequest): Promise<NextResponse<APIResponse>> {
-    const {email, password} = await request.json();  // extracting email & password from request
+    const { email, password } = await request.json();  // extracting email & password from request
 
     // Validating email and password
     if (!email || !password) {

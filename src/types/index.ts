@@ -1,3 +1,3 @@
-export type { User, Video, VideoDimensions } from "@/types/modelTypes";
-export type { MongooseConnection } from "@/types/libTypes";
-export type { APIResponse } from "@/types/utilTypes";
+export type * from "@/types/modelTypes";
+export type * from "@/types/libTypes";
+export type * from "@/types/utilTypes";
